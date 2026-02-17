@@ -81,10 +81,14 @@ HyDFS is a hybrid between HDFS (Hadoop Distributed File System) and Cassandra, b
 
 ## Roadmap
 
-- [x] Implement HyDFS file operations (create, append, get, merge)
+- [x] Implement HyDFS file operations (create, append, multiappend, get, getfromreplica and merge)
 - [x] Gossip-based membership protocol
 - [x] Ping/Ack membership protocol with suspicion mechanism
 - [x] Dynamic replica rebalancing and re-replication
+- [x] Per-client append ordering
+- [x] Read-my-writes
+- [x] Eventual consitency
+- [x] Background merge 
 - [x] Command-line management tools
 - [x] Enhanced monitoring and logging
 
